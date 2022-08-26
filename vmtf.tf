@@ -1,5 +1,5 @@
 # Terraform Training , Day1 , GCP
-# Author: Somnath Das
+# Author: Gopi R
 
 provider "google" {
   project      = "mycloudproject-358305"
