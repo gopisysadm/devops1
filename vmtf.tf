@@ -2,7 +2,6 @@
 # Author: Gopi R
 
 provider "google" {
-  credentials  = file("tfkey.json")
   project      = "mycloudproject-358305"
   region       = "us-central1"
   zone         = "us-central1-b"
