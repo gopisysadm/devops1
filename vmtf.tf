@@ -1,7 +1,8 @@
 # Terraform Training , Day1 , GCP
 # Author: Gopi R
 
-provider "google" {
+protfkeygoogle" {
+  credentials = "${file("tfkey.json")}"
   project      = "mycloudproject-358305"
   region       = "us-central1"
   zone         = "us-central1-b"
