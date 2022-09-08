@@ -1,8 +1,7 @@
 # Terraform Training , Day1 , GCP
-# Author: Gopi R
+# Author: Somnath Das
 
-protfkeygoogle" {
-  credentials = "${file("tfkey.json")}"
+provider "google" {
   project      = "mycloudproject-358305"
   region       = "us-central1"
   zone         = "us-central1-b"
